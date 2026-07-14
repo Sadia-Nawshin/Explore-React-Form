@@ -1,6 +1,10 @@
 import './App.css'
 import SimpleForm from './components/simpleForm/simpleForm'
-//import ControlledField from './components/controlledField/controlledField'
+import FormAction from "./components/formAction/formAction"
+import ControlledField from './components/controlledField/controlledField'
+import UnControlledField from './components/uncontrolledField/uncontrolledField'
+import HookForm from './components/hookForm/hookForm'
+import ProductManagement from './components/productManagement/productManagement'
 
 function App() {
 
@@ -8,8 +12,15 @@ function App() {
     <>  
       <div>
         <h1>Explore React Form</h1>
-        {/*<ControlledField></ControlledField>*/}
-        <SimpleForm></SimpleForm>
+        {/*<SimpleForm></SimpleForm>
+          <ControlledField></ControlledField>
+         <UnControlledField></UnControlledField>
+          <HookForm></HookForm>
+        */}
+        
+        <ProductManagement></ProductManagement>
+
+        <></>
         
 
         
